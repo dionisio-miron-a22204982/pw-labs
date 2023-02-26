@@ -1,0 +1,76 @@
+body {
+    background-color: antiquewhite;
+    font-size: 14pt;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: crimson;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: black;
+}
+
+#unico {
+    font-family: fantasy;
+}
+
+.cidade {
+    font-size: 13;
+    font-weight: bold;
+}
+
+.cidade2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: italic;
+}
+
+.author {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+div:hover {
+    background-color: red;
+}
+
+p::first-letter{
+    font-size: 2em;
+}
+
+div p {
+    font: optional;
+}
+
+div > p {
+    font-size: large;
+}
+
+div ~ p {
+    font-style: oblique;
+}
+
+div + p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div,p{ color: red; }
+
+a:link {color: red;}
+a:visited {color: black;}
+a:hover {color: green;}
+a:active {color: white;}
+
+a:hover:after {
+    content: 🤤;
+}

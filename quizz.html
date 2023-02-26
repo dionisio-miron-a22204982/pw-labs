@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <title>quizz</title>
+        <h3>Quizz</h3>
+    </header>
+    <main>
+        <section>
+            <p>Um breve quizz para testar os seus conhecimentos sobre Veneza</p>
+        </section>
+        <section>
+            <form method="POST" action="mailto: dionisiomiron@gmail.com" enctype="multipart/form-data"
+                autocomplete="on">
+                <fieldset>
+                    <p>Quizz sobre Veneza</p>
+                    <fieldset>
+                        <p>Info</p>
+                        <fieldset>
+                            <label for="firstName">nome </label>
+                            <input type="text" size="20" minlength="3" maxlength="15"
+                                placeholder="Insira o seu primeiro nome" autofocus required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="lastName">apelido</label>
+                            <input type="text" size="20" minlength="3" maxlength="15"
+                                placeholder="Insira o seu último nome" autofocus required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">email</label>
+                            <input type="text" size="40" minlength="12" maxlength="40" placeholder="Insira o seu email"
+                                autofocus required>
+                        </fieldset>
+
+                    </fieldset>
+                    <fieldset>Qual a língua oficial em Veneza?
+                        <!--A língua oficial de Veneza é o italiano.-->
+                        <input type="text" pattern="\w{4,16}">
+                    </fieldset>
+                    <fieldset>
+                        Quais os monumentos que já ouviu ou visitou em Veneza
+                        <!--Grand Canal, Piazza San Marco, Basílica de São Marcos, Palácio Ducal, Ponte Rialto-->
+                        <p><input type="radio" multiple>Grand Canal</p>
+                        <p><input type="radio" multiple>Piazza San Marco</p>
+                        <p><input type="radio" multiple>Basílica de São Marcos</p>
+                        <p><input type="radio" multiple>Palácio Ducal</p>
+                        <p><input type="radio" multiple>Ponte Rialto</p>
+                    </fieldset>
+                    <fieldset>
+                        Veneza é a capital de Itália
+                        <!--Roma-->
+                        <p><input type="checkbox">Sim</p>
+                        <p><input type="checkbox">Não</p>
+                    </fieldset>
+                    <fieldset>
+                        Em que ano Itália foi fundada?
+                        <!--2 de junho de 1946-->
+                        <input type="date">
+                    </fieldset>
+                    <fieldset>
+                        Qual o seu prato favorito? (Ps.É tudo bom!!!😏🤤)
+                        <p><input type="image" src="images/culinaria-italiana.jpg" alt="Submit" width="" height=""></p>
+                    </fieldset>
+                    <fieldset>
+                        Quais as cores da bandeira da Itália?
+                        <input type="color"><input type="color"><input type="color">
+                        <!--Verde, Vermelho, Branco-->
+                    </fieldset>
+                    <fieldset>
+                        Por quantas ilhas se estende a cidade de Veneza?
+                        <!--119 ilhas -->
+                        <input type="number" min="100" max="120">
+                    </fieldset>
+                    <fieldset>
+                        <label for="cars">Escolha a marca italiana que mais gosta:</label>
+                        <select name="marcas" id="marcas">
+                            <option value="Ferrari">Ferrari</option>
+                            <option value="Gucci">Gucci</option>
+                            <option value="Bottega Veneta">Bottega Veneta</option>
+                            <option value="Versace">Versace</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            Escolha o seu nome Italiano favorito : Press any <br />
+                            <input type="text" id="italianNames" list="names">
+                            <datalist id="names">
+                                <option value="Antonella">
+                                <option value="Matteo">
+                                <option value="Pietro">
+                                <option value="Enzo">
+                                <option value="Kiara">
+                                <option value="Nina">
+                                <option value="Kiara">
+                                <option value="Giovanni">
+                                <option value="Bolsonaro">
+                                <option value="Dante">
+                                <option value="Alessandra">
+                                <option value="Rita">
+                            </datalist>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        O que achou deste site?
+                        <p>Mau😥<input type="range">Bom😏</p>
+                    </fieldset>
+                    <fieldset>
+                        <p>Comentário</p>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </fieldset>
+                    <p><input type="submit" value="Enviar 🙌"></p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer><b>
+            <p class="author">Dionísio Miron | a22204982 | Universidade Lusófona © 2023</p>
+        </b></footer>
+</body>
+
+</html>
